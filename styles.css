@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: whitesmoke;
+  font-family: sans-serif;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.container {
+  text-align: center;
+  width: 100%;
+  background-color: rgb(85, 170, 85);
+  margin: auto;
+}
+.player-section {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.player-pick {
+  font-size: 4rem;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.computer-pick {
+  font-size: 4rem;
+  margin-right: 10px;
+}
+.start,
+.reset,
+.how-to-play-btn {
+  padding: 1em 1em;
+  background-color: green;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  margin-right: 20px;
+}
+.how-to-play-btn {
+  background-color: white;
+  color: green;
+}
+.reset {
+  background-color: red;
+}
+.winner-message {
+  font-size: 3rem;
+}
+.help {
+  display: none;
+}
+.show {
+  display: block;
+}

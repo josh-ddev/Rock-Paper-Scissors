@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ROCK,PAPER,SCISSORS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>ROCK, PAPER, SCISSORS</h1>
+      <div class="btn">
+        <button onclick="startGame()" class="start">START GAME</button>
+        <button onclick="reset()" class="reset">RESET</button>
+        <button onclick="help()" class="how-to-play-btn">HOW TO PLAY</button>
+      </div>
+
+      <div class="player-section">
+        <p>PLAYER</p>
+        <span class="player-pick rock">✊</span>
+        <span class="player-pick paper">✋</span>
+        <span class="player-pick scissors">✌</span>
+      </div>
+      <p class="winner-message"></p>
+      <div class="computer">
+        <span class="computer-pick"> </span>
+      </div>
+      <div>
+        <p>Player : <span class="playerScore"> </span></p>
+        <p>Computer : <span class="computerScore"> </span></p>
+      </div>
+     
+      <div class="help">
+        <p>
+          How to play: In rock-paper-scissors, two players will each randomly
+          choose one of three hand signs: rock (made by making a fist), paper
+          (made by laying your hand flat), or scissors (made by holding out two
+          fingers to look like scissors). Both players show their signs at the
+          same time to see who will win. Here are the rules that determine which
+          sign beats another:
+        </p>
+        <ul>
+          <li>Rock wins over scissors (because rock smashes scissors)</li>
+          <li>Scissors wins over paper (because scissors cut paper)</li>
+          <li>Paper wins over rock (because paper covers rock)</li>
+          <li>If both players show the same sign, it’s a tie.</li>
+        </ul>
+        <p>To Exit: Click On "HOW TO PLAY button"</p>
+        <p>To Start : Click on "Start Game button"</p>
+        <p>To Reset : Click on "Reset button"</p>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
